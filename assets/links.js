@@ -20,17 +20,29 @@ window.HANDS_ON_LINKS = [
       "https://github.com/soracomug/explorer2026-hands-on-lte-m-button-for-enterprise#readme",
     repoUrl:
       "https://github.com/soracomug/explorer2026-hands-on-lte-m-button-for-enterprise",
-    tags: ["LTE-M Button for Enterprise", "SORACOM Flux", "簡易位置測位", "Discord"],
+    tags: [
+      "LTE-M Button for Enterprise",
+      "SORACOM Flux",
+      "簡易位置測位",
+      "Discord",
+    ],
     duration: "約60分",
     status: "open",
   },
   {
-    title: "GPS マルチユニット ハンズオン",
-    summary: "GPS マルチユニット SORACOM Edition を使ったハンズオンです。",
-    docsUrl: "https://github.com/soracomug/explorer2026-hands-on-gpsmultiunit#readme",
+    title: "GPS マルチユニットと位置情報サービスのハンズオン",
+    summary:
+      "GPS マルチユニットの位置情報を SORACOM Harvest で確認し、SORACOM Lagoon で可視化します。中・上級者向けに SORACOM Beam で AWS へ送るコンテンツもあります。",
+    docsUrl:
+      "https://github.com/soracomug/explorer2026-hands-on-gpsmultiunit/blob/main/docs/README.md",
     repoUrl: "https://github.com/soracomug/explorer2026-hands-on-gpsmultiunit",
-    tags: ["GPS マルチユニット"],
+    tags: [
+      "GPS マルチユニット",
+      "SORACOM Harvest",
+      "SORACOM Lagoon",
+      "SORACOM Beam",
+    ],
     duration: "",
-    status: "preparing",
+    status: "open",
   },
 ];
