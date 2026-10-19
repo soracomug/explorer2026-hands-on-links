@@ -42,7 +42,7 @@ window.HANDS_ON_LINKS = [
       "SORACOM Lagoon",
       "SORACOM Beam",
     ],
-    duration: "",
+    duration: "約60分",
     status: "open",
   },
 ];
