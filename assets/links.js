@@ -12,7 +12,7 @@
 window.HANDS_ON_LINKS = [
   {
     title:
-      "SORACOM LTE-M Button for Enterprise を押すと「近くのご当地情報」が Discord に届く！SORACOM Flux ハンズオン",
+      "SORACOM LTE-M Button for Enterprise を押すと「近くのご当地情報」が Discord に届く！ハンズオン",
     summary:
       "白ボタンを押すと、簡易位置測位で得たおおよその位置から SORACOM Flux の AI アクションがご当地情報を生成し、Discord に投稿します。",
     docsUrl:
@@ -28,7 +28,8 @@ window.HANDS_ON_LINKS = [
     status: "open",
   },
   {
-    title: "GPS マルチユニットと位置情報サービスのハンズオン",
+    title:
+      "GPS マルチユニットの「いまどこ？」を地図で見える化！SORACOM Harvest × Lagoon 位置情報ハンズオン",
     summary:
       "GPS マルチユニットの位置情報を SORACOM Harvest で確認し、SORACOM Lagoon で可視化します。中・上級者向けに SORACOM Beam で AWS へ送るコンテンツもあります。",
     docsUrl:
@@ -43,7 +44,8 @@ window.HANDS_ON_LINKS = [
     status: "open",
   },
   {
-    title: "生成AI × SORACOM ハンズオン",
+    title:
+      "AI エージェントに話しかけて SORACOM を操作！MCP で調べる・設定する・分析する生成AI ハンズオン",
     summary:
       "生成AIエージェントから SORACOM Knowledge MCP で公式ドキュメントを調べ、SORACOM アカウントの情報参照・設定変更や Harvest Files のデータ分析を体験します。",
     docsUrl:
