@@ -7,7 +7,6 @@
  *   docsUrl     : 手順書の URL（GitHub Pages があればそちら、なければリポジトリ内の目次）
  *   repoUrl     : GitHub リポジトリの URL
  *   tags        : デバイス・サービス名など
- *   duration    : 所要時間の目安（不明なら空文字）
  *   status      : "open"（公開中） / "preparing"（準備中）
  */
 window.HANDS_ON_LINKS = [
@@ -26,7 +25,6 @@ window.HANDS_ON_LINKS = [
       "簡易位置測位",
       "Discord",
     ],
-    duration: "約60分",
     status: "open",
   },
   {
@@ -42,7 +40,40 @@ window.HANDS_ON_LINKS = [
       "SORACOM Lagoon",
       "SORACOM Beam",
     ],
-    duration: "約60分",
+    status: "open",
+  },
+  {
+    title: "生成AI × SORACOM ハンズオン",
+    summary:
+      "生成AIエージェントから SORACOM Knowledge MCP で公式ドキュメントを調べ、SORACOM アカウントの情報参照・設定変更や Harvest Files のデータ分析を体験します。",
+    docsUrl:
+      "https://github.com/soracomug/explorer2026-hands-on-gen-ai/blob/main/docs/index.md",
+    repoUrl: "https://github.com/soracomug/explorer2026-hands-on-gen-ai",
+    tags: [
+      "生成AI",
+      "Claude Code",
+      "Kiro CLI",
+      "SORACOM Knowledge MCP",
+      "SORACOM MCP Server",
+      "SORACOM Harvest Files",
+    ],
+    status: "open",
+  },
+  {
+    title:
+      "スマホで撮った写真を AI が解析して Discord に届ける！SORACOM Flux AI画像判定ハンズオン",
+    summary:
+      "スマホや PC で撮影した画像を SORACOM Harvest Files にアップロードし、SORACOM Flux の AI アクションで解析した結果を Discord に通知します。",
+    docsUrl:
+      "https://github.com/soracomug/explorer2026-hands-on-flux-image-ai#readme",
+    repoUrl: "https://github.com/soracomug/explorer2026-hands-on-flux-image-ai",
+    tags: [
+      "SORACOM Harvest Files",
+      "SORACOM Flux",
+      "生成AI",
+      "画像解析",
+      "Discord",
+    ],
     status: "open",
   },
 ];

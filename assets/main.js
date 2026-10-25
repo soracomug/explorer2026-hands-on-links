@@ -31,9 +31,6 @@
     if (item.status === "preparing") {
       meta.appendChild(el("span", "badge badge-preparing", "準備中"));
     }
-    if (item.duration) {
-      meta.appendChild(el("span", "duration", "⏱ " + item.duration));
-    }
     if (meta.childNodes.length) li.appendChild(meta);
 
     li.appendChild(el("h2", "card-title", item.title));
@@ -49,10 +46,14 @@
 
     var actions = el("div", "card-actions");
     if (item.docsUrl) {
-      actions.appendChild(linkButton(item.docsUrl, "手順書を開く", "btn btn-primary"));
+      actions.appendChild(
+        linkButton(item.docsUrl, "手順書を開く", "btn btn-primary"),
+      );
     }
     if (item.repoUrl) {
-      actions.appendChild(linkButton(item.repoUrl, "リポジトリ", "btn btn-secondary"));
+      actions.appendChild(
+        linkButton(item.repoUrl, "リポジトリ", "btn btn-secondary"),
+      );
     }
     li.appendChild(actions);
 
